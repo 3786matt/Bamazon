@@ -1,5 +1,6 @@
 var mysql = require('mysql');
 var inquirer = require('inquirer');
+var colors = require('colors');
 var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
@@ -48,7 +49,7 @@ inquirer.prompt({
         
         connection.query('SELECT * FROM Products', function(err, res) {
 
-          console.log('ItemID' + ' | ' + 'ProductName' + ' | ' + 'DepartmentName' + ' | ' + 'Price' + ' | ' + 'StockQuantity');
+          console.log('ItemID'.bold.red + ' | ' + 'ProductName'.bold.red + ' | ' + 'DepartmentName'.bold.red + ' | ' + 'Price'.bold.red + ' | ' + 'StockQuantity'.bold.red);
     
           for (var i = 0; i < res.length; i++) {
             console.log(res[i].ItemID + " | " + res[i].ProductName + " | " + res[i].DepartmentName + " | " + res[i].Price + " | " + res[i].StockQuantity);
