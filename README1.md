@@ -24,8 +24,12 @@
 
 ![customer4](https://cloud.githubusercontent.com/assets/18645237/19729514/397e5c3a-9b65-11e6-94be-3e1560eb1380.png)
 
-### When option one is selected, the current Products table is displayed.
+### When option 1 is selected, the current Products table is displayed.
 
 ![customer5](https://cloud.githubusercontent.com/assets/18645237/19729518/3bd6a94c-9b65-11e6-95a2-463a53fafe6d.png)
+
+###When option 2 is selected all products with 5 or more items in stock are displayed as "Products sufficiently stocked". Products with less than 5 items in stock are fully displayed.
+
+![customer6](https://cloud.githubusercontent.com/assets/18645237/19729851/63d7f0b2-9b66-11e6-9ead-b1179c4f0a27.png)
 
 ###
