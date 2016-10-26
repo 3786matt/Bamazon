@@ -89,7 +89,22 @@ inquirer.prompt({
       console.log('Products sufficiently stocked.');
     }
 
-    function addToInventory(){
+      function addToInventory(){
+
+        connection.query('SELECT * FROM Products', function(err, res) {
+
+            console.log('ItemID' + ' | ' + 'ProductName' + ' | ' + 'DepartmentName' + ' | ' + 'Price' + ' | ' + 'StockQuantity');
+    
+            for (var i = 0; i < res.length; i++) {
+              console.log(res[i].ItemID + " | " + res[i].ProductName + " | " + res[i].DepartmentName + " | " + res[i].Price + " | " + res[i].StockQuantity);
+            }
+    
+          console.log("-----------------------------------");
+
+          next();
+        });
+
+        function next(){
 
         inquirer.prompt({
           name: "add",
@@ -121,13 +136,28 @@ inquirer.prompt({
 
                       else{
                       console.log('Invetory update successful!');
-                      main();
-                    };                      
+                      
+                        connection.query('SELECT * FROM Products', function(err, res) {
+
+                          console.log('ItemID' + ' | ' + 'ProductName' + ' | ' + 'DepartmentName' + ' | ' + 'Price' + ' | ' + 'StockQuantity');
+    
+                          for (var i = 0; i < res.length; i++) {
+                            console.log(res[i].ItemID + " | " + res[i].ProductName + " | " + res[i].DepartmentName + " | " + res[i].Price + " | " + res[i].StockQuantity);
+                          }
+
+                        });
+    
+          console.log("-----------------------------------");
+
+
+                    };  
+                    main();                    
             });
           });               
         });
       });
     };
+  };
 
 
     function addNewProduct(){
