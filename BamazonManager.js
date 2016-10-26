@@ -169,7 +169,7 @@ inquirer.prompt({
           message: "Please enter the product's name: \n"
           }).then(function(answer) {
             var prodName = answer.name;
-            console.log("new thing:" + prodName);
+            console.log(prodName);
           
 
           inquirer.prompt({
@@ -178,7 +178,7 @@ inquirer.prompt({
               message: "Please enter the product's department: \n"
               }).then(function(answer1) {
                 var prodDep = answer1.department;
-                console.log("new department:" + prodDep);
+                console.log(prodDep);
 
 
               inquirer.prompt({
@@ -187,7 +187,7 @@ inquirer.prompt({
                   message: "Please enter the product's price: \n"
                   }).then(function(answer2) {
                     var prodPrice = answer2.price;
-                    console.log("new price:" + prodPrice);
+                    console.log(prodPrice);
 
                   inquirer.prompt({
                       name: "quantity",
@@ -195,7 +195,7 @@ inquirer.prompt({
                       message: "Please enter the product's quantity: \n"
                       }).then(function(answer3) {
                         var prodQty = answer3.quantity;
-                        console.log("new quantity:" + prodQty);
+                        console.log(prodQty);
 
                           connection.query('INSERT INTO Products SET ?', {
                               ProductName:prodName,
