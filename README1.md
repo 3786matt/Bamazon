@@ -21,3 +21,11 @@
 ## Bamazon Manager View:
 
 ### Upon start up, the program asks the user which function they would like to select. 
+
+![customer4](https://cloud.githubusercontent.com/assets/18645237/19729514/397e5c3a-9b65-11e6-94be-3e1560eb1380.png)
+
+### When option one is selected, the current Products table is displayed.
+
+![customer5](https://cloud.githubusercontent.com/assets/18645237/19729518/3bd6a94c-9b65-11e6-95a2-463a53fafe6d.png)
+
+###
