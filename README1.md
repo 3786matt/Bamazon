@@ -36,5 +36,7 @@
 
 ![customer7](https://cloud.githubusercontent.com/assets/18645237/19730113/29fddf04-9b67-11e6-867a-1c52bcadbf9c.png)
 
-###
+###When the user selects option 4 from the main menu (add new product), they are asked to enter several pieces of information (name, department, price, and quantity). When option 1 (display table) is entered the table appears with the new item added (ID number 14 in the image below). 
+
+![customer8](https://cloud.githubusercontent.com/assets/18645237/19730473/59620f08-9b68-11e6-921f-54e861f29602.png)
 
