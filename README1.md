@@ -17,3 +17,7 @@
 ![customer3](https://cloud.githubusercontent.com/assets/18645237/19711715/a810b68a-9b05-11e6-9b0f-2f28c1be5e85.png)
 
 ###When the user requests a higher quantity of a product than is available, "Insufficient Quantity!" is displayed. The table displays again and the user is prompted to make another purchase.
+
+## Bamazon Manager View:
+
+### Upon start up, the program asks the user which function they would like to select. 
