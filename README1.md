@@ -32,4 +32,9 @@
 
 ![customer6](https://cloud.githubusercontent.com/assets/18645237/19729851/63d7f0b2-9b66-11e6-9ead-b1179c4f0a27.png)
 
+###When option 3 is selected the user is prompted to enter the ID number of the product they would like to add stock to. The user is then prompted to enter the number of items they would  like to add. The program menu appears again with the updated table (lamps increased from 55 to 59 in the image below).
+
+![customer7](https://cloud.githubusercontent.com/assets/18645237/19730113/29fddf04-9b67-11e6-867a-1c52bcadbf9c.png)
+
 ###
+
